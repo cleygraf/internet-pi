@@ -70,6 +70,7 @@ services:
       - 9798:9798
     image: miguelndecarvalho/speedtest-exporter
     restart: always
+    privileged: true
     networks:
       - back-tier
 
